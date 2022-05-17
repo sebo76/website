@@ -1,9 +1,18 @@
-
+var buttonclick = 0;
 
 function alertbtn() {
-    create_random_string(12);
-    function create_random_string(string_length) {
+
+    buttonclick += 1;
+
+    if(buttonclick > 1) {
+        alert("Du hast bereits deinen Code erhalten! 😖");
+    } else {
     
+        create_random_string(12);
+
+
+    function create_random_string(string_length) {
+        
         var random_string = '';
         var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     
@@ -13,6 +22,7 @@ function alertbtn() {
         }
         alert("Du hast ein Easteregg gefunden! Du erhältst 20% Rabatt 😍                         Hier dein Code: "+random_string);
 
+    }
     }
 
 

@@ -213,3 +213,7 @@ section .row div:nth-child(2) {
         transform: translateX(-200%);
     }
 }
+
+::selection {
+    background-color: rgb(54, 54, 54);
+}

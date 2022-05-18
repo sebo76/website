@@ -217,3 +217,74 @@ section .row div:nth-child(2) {
 ::selection {
     background-color: rgb(54, 54, 54);
 }
+
+@media only screen and (max-width:700px){
+
+
+    h1 {
+        display: block;
+        font-size: 40px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    .container {
+        display: block;
+        position: initial;
+        width: 600px;
+        height: 300px;
+        margin: 160px auto;
+    }
+
+    .container .box {
+        display: block;
+        position: relative;
+        width: calc(400px - 30px);
+        height: calc(800px - 30px);
+        background: #2b2a2a;
+        float: left;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+        padding: 2rem;
+        margin-right: 50px;
+    }
+    
+    .container .text {
+        display: block;
+        color: white;
+        margin: 90px 0px 5px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .container .text2 {
+        color: white;
+        margin: 30px 0px 20px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .container .text3 {
+        color: #000000;
+        margin: 30px 0px 5px 10px;
+        padding: 5px 10px 5px 10px;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        background-color: #02CE85;
+        border-radius: 5px;
+    }
+
+    .container .pic {
+        display: block;
+        height: 180px;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+
+}
